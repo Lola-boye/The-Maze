@@ -1,6 +1,8 @@
 # The Maze
 
-The Maze is a 3D Maze game that uses ray casting to render a 2D map into a 3D navigable world!
+By: Mary Ajiboye
+
+The Maze is a 3D Maze game that uses raycasting to turn a 2D view into 3D with easier navigation
 
 The Maze was written was written in C ussing SDL2 library. Deveploment was performed using Ubuntu 14.04 LTS - gcc (Ubuntu 4.8.4-2ubuntu1~14.04) 4.8.4
 
@@ -10,7 +12,7 @@ Simple DirectMedia Layer is a cross-platform development library designed to pro
 
 ## Instalation 
 ```sh
-$ git clone https://github.com/danielaloperahernandez/The-Maze.git
+$ git clone https://github.com/Lola-boye/The-Maze.git
 ```
 ## Usage 
 * Execute ./maze or type make run 
@@ -22,8 +24,3 @@ $ git clone https://github.com/danielaloperahernandez/The-Maze.git
 $ gcc -Wall -Werror -Wextra -pedantic ./src/*.c -lm -o maze `sdl2-config --cflags` `sdl2-config --libs`;
 ```
 
-## Flowchart
-![The Maze Flow Chart](https://i.imgur.com/t0MxNni.png)
-
-## Demo
-[![The Maze Demo](https://i.imgur.com/5Ss7s1S.png)](https://www.youtube.com/embed/6T2N8gNUTQ8)
